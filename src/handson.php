@@ -122,5 +122,8 @@ myFunction(); //Call (execute) a function named myFunction
 function myFunction($fname, $lname) {
         echo  $fname; //print the first parameter.
     }
+    function myFunction($fname, $lname) {
+        return $lname; //Let the function return the second value.
+    }
 
 ?>
