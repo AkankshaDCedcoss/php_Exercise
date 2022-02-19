@@ -139,4 +139,6 @@ $colors = array("red", "green", "blue", "yellow");
 sort($colors); //sort the $colors array alphabetically
 $colors = array("red", "green", "blue", "yellow"); 
 rsort($colors); //sort the $colors array descending alphabetically
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+asort($age); // sort the $age array according to the values
 ?>
