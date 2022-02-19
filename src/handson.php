@@ -141,13 +141,14 @@ $colors = array("red", "green", "blue", "yellow");
 rsort($colors); //sort the $colors array descending alphabetically
 $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 asort($age); // sort the $age array according to the values
+?>
 <html>
 <body>
 
 Welcome <?php echo $_GET["fname"]; ?>
 
 </body>
-</html> // gets submitted, how can you, in welcome.php
+</html>  gets submitted, how can you, in welcome.php
 <form action="welcome.php" method="post">
 First name: <input type="text" name="fname">
 </form>
@@ -162,3 +163,11 @@ Welcome <?php echo $_POST["fname"]; ?>
 echo date("l"); //date function to output the weekday of today 
 echo date("Y.m.d"); //correct format parameter to output a date
 echo date("H:i:s"); //utput the time like this: 14:13:25
+<?php include 'footer.php';?> //correct syntax to include a file named "footer.php".
+
+
+
+
+
+
+
