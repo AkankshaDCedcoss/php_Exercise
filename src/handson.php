@@ -26,5 +26,6 @@ $oldtxt = "Hello World!";
 $newtxt = str_replace("World", "Dolly",$oldtxt); //Replace the word
 echo 10*5; //Multiply 10 with 5, and output the result
 echo 10 / 2;  //Divide 10 by 2, and output the result
+var_dump($a == $b); //comparison operator to check if $a is equal to $b
 
 ?>
