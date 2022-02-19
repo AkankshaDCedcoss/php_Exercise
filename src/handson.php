@@ -122,11 +122,12 @@ myFunction(); //Call (execute) a function named myFunction
 function myFunction($fname, $lname) {
         echo  $fname; //print the first parameter.
     }
-    function myFunction($fname, $lname) {
+function myFunction($fname, $lname) {
         return $lname; //Let the function return the second value.
     }
-    $fruits = array("Apple", "Banana", "Orange");
+$fruits = array("Apple", "Banana", "Orange");
           echo count($fruits); //correct function to output the number of items in an array.
-    $fruits = array("Apple", "Banana", "Orange");
+$fruits = array("Apple", "Banana", "Orange");
           echo $fruits[1]; //Output the second item in the $fruits array
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43"); //Create an associative array
 ?>
