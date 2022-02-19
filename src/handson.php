@@ -130,4 +130,6 @@ $fruits = array("Apple", "Banana", "Orange");
 $fruits = array("Apple", "Banana", "Orange");
           echo $fruits[1]; //Output the second item in the $fruits array
 $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43"); //Create an associative array
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+echo "Ben is " . $age['Ben'] . " years old."; //Here you see an associative array
 ?>
