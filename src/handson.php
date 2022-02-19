@@ -86,4 +86,12 @@ switch ($color) {
     default:
    echo "Neither"; //Add a section that will output "Neither"
   }
+  $i = 1; 
+
+while($i < 6) 
+{
+  echo $i;
+  $i++; //Output $i as long as $i is less than 6
+}
+
 ?>
