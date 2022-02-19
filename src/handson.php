@@ -159,4 +159,5 @@ First name: <input type="text" name="fname">
 Welcome <?php echo $_POST["fname"]; ?>
 </body>
 </html> //using post method
+echo date("1"); //date function to output the weekday of today 
 ?>
