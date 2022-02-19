@@ -119,5 +119,8 @@ function myfunction()
 }
 
 myFunction(); //Call (execute) a function named myFunction
+function myFunction($fname, $lname) {
+        echo  $fname; //print the first parameter.
+    }
 
 ?>
