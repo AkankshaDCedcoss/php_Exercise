@@ -172,6 +172,8 @@ while(!feof($myfile)) {
 echo fgetc($myfile); //Open a file, and write the correct syntax 
 }
 
+setcookie("username", "John", time() + (86400 * 30), "/"); //Create a cookie named "username".
+
 
 
 
