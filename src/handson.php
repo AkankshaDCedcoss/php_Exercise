@@ -64,4 +64,16 @@ else
  {
   echo "3"; //Output "1" if $a is equal to $b, print "2" if $a is greater than $b, otherwise output "3"
 }
+
+switch($color)
+{
+  
+ "red":
+    echo "Hello";
+    break;
+  
+ "green":
+    echo "Welcome"; //Create a switch statement
+    break;
+}
 ?>
