@@ -148,4 +148,15 @@ Welcome <?php echo $_GET["fname"]; ?>
 
 </body>
 </html> // gets submitted, how can you, in welcome.php
+<form action="welcome.php" method="post">
+First name: <input type="text" name="fname">
+</form>
+
+
+<html>
+<body>
+
+Welcome <?php echo $_POST["fname"]; ?>
+</body>
+</html> //using post method
 ?>
