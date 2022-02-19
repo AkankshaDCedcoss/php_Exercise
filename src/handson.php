@@ -141,4 +141,11 @@ $colors = array("red", "green", "blue", "yellow");
 rsort($colors); //sort the $colors array descending alphabetically
 $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 asort($age); // sort the $age array according to the values
+<html>
+<body>
+
+Welcome <?php echo $_GET["fname"]; ?>
+
+</body>
+</html> // gets submitted, how can you, in welcome.php
 ?>
