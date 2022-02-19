@@ -28,4 +28,16 @@ echo 10*5; //Multiply 10 with 5, and output the result
 echo 10 / 2;  //Divide 10 by 2, and output the result
 var_dump($a == $b); //comparison operator to check if $a is equal to $b
 var_dump($a != $b); //comparison operator to check if $a is NOT equal to $b
+$a = 50;
+$b = 10;
+if($a > $b)
+{  
+    echo "Hello World"; //Output "Hello World" if $a is greater than $b
+}
+$a = 50;
+$b = 10;
+if($a!=$b)
+ {
+  echo "Hello World"; //Output "Hello World" if $a is NOT equal to $b
+}
 ?>
