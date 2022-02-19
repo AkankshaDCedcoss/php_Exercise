@@ -132,4 +132,7 @@ $fruits = array("Apple", "Banana", "Orange");
 $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43"); //Create an associative array
 $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 echo "Ben is " . $age['Ben'] . " years old."; //Here you see an associative array
+
+foreach($age as $x => $y) {
+    echo "Key=" . $x . ", Value=" . $y;} //Loop through an associative array
 ?>
