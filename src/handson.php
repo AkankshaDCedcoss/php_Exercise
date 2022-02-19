@@ -106,5 +106,11 @@ for($i = 0; $i < 10; $i++)
  {
   echo $i; //Create a loop that runs from 0 to 9
 }
+$colors = array("red", "green", "blue", "yellow"); 
+
+foreach($colors as $x) 
+{
+  echo $x; //Loop through the items in the $colors array.
+}
 
 ?>
