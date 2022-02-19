@@ -125,5 +125,7 @@ function myFunction($fname, $lname) {
     function myFunction($fname, $lname) {
         return $lname; //Let the function return the second value.
     }
+    $fruits = array("Apple", "Banana", "Orange");
+          echo count($fruits); //correct function to output the number of items in an array.
 
 ?>
