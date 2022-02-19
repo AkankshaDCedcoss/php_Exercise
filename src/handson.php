@@ -113,15 +113,15 @@ foreach($colors as $x)
   echo $x; //Loop through the items in the $colors array.
 }
 
-function myfunction()
- {
-  echo "Hello World!"; //Create a function named myFunction
-}
+// function myfunction()
+//  {
+//   echo "Hello World!"; //Create a function named myFunction
+// }
 
-myFunction(); //Call (execute) a function named myFunction
-function myFunction($fname, $lname) {
-        echo  $fname; //print the first parameter.
-    }
+// myFunction(); //Call (execute) a function named myFunction
+// function myFunction($fname, $lname) {
+//         echo  $fname; //print the first parameter.
+//     }
 function myFunction($fname, $lname) {
         return $lname; //Let the function return the second value.
     }
@@ -143,6 +143,7 @@ $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 asort($age); // sort the $age array according to the values
 ?>
 
+
 <html>
 <body>
 
@@ -159,21 +160,24 @@ First name: <input type="text" name="fname">
 <body>
 
 Welcome <?php echo $_POST["fname"]; ?>
+
 </body>
-</html> //using post method
+</html><!--  using post method -->
+<?php
 echo date("l"); //date function to output the weekday of today 
 echo date("Y.m.d"); //correct format parameter to output a date
-echo date("H:i:s"); //utput the time like this: 14:13:25
-<?php include 'footer.php';?> //correct syntax to include a file named "footer.php".
+echo date("H:i:s"); //utput the time like this: 14:13:25 ?>
+<!-- <?php include 'footer.php'; //correct syntax to include a file named "footer.php". --> --> -->
+?>
 <?php echo readfile("webdict.txt"); // correct syntax to open and read the file content
 $myfile = fopen("webdict.txt", "r");
 
-while(!feof($myfile)) {
-echo fgetc($myfile); //Open a file, and write the correct syntax 
-}
+// while(!feof($myfile)) {
+// echo fgetc($myfile); //Open a file, and write the correct syntax 
+// }
 
-setcookie("username", "John", time() + (86400 * 30), "/"); //Create a cookie named "username".
-session_start();
+//setcookie("username", "John", time() + (86400 * 30), "/"); //Create a cookie named "username".
+// session_start();
 $_SESSION["favcolor"] = "green"; //Create a session variable named "favcolor".
 echo $_SESSION["favcolor"]; //Output the value of the session variable "favcolor".
 
