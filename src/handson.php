@@ -68,11 +68,11 @@ else
 switch($color)
 {
   
- "red":
+ case "red":
     echo "Hello";
     break;
   
- "green":
+case  "green":
     echo "Welcome"; //Create a switch statement
     break;
 }
