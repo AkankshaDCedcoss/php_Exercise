@@ -76,4 +76,14 @@ case  "green":
     echo "Welcome"; //Create a switch statement
     break;
 }
+switch ($color) {
+    case "red":
+      echo "Hello";
+      break;
+    case "green":
+      echo "Welcome";
+      break;
+    default:
+   echo "Neither"; //Add a section that will output "Neither"
+  }
 ?>
