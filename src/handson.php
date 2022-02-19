@@ -15,6 +15,7 @@ comment
 
 echo "Hello World"; //Statements in PHP have to end with a special character
 
+$txt= "Hello"; //Create a variable
 
 
 
