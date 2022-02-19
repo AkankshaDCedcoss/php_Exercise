@@ -22,7 +22,8 @@ $y= 7;
 echo $x + $y; //echo statement to output the sum of x and y.
 echo strlen("Hello World!"); //Get the length of the string "Hello World!".
 echo strrev("Hello World!"); //Reverse the string
-
+$oldtxt = "Hello World!";
+$newtxt = str_replace("World", "Dolly",$oldtxt); //Replace the word
 
 
 
