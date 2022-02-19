@@ -134,7 +134,9 @@ $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
 echo "Ben is " . $age['Ben'] . " years old."; //Here you see an associative array
 
 foreach($age as $x => $y) {
-    echo "Key=" . $x . ", Value=" . $y;} //Loop through an associative array
-    $colors = array("red", "green", "blue", "yellow"); 
-    sort($colors); //sort the $colors array alphabetically
+echo "Key=" . $x . ", Value=" . $y;} //Loop through an associative array
+$colors = array("red", "green", "blue", "yellow"); 
+sort($colors); //sort the $colors array alphabetically
+$colors = array("red", "green", "blue", "yellow"); 
+rsort($colors); //sort the $colors array descending alphabetically
 ?>
