@@ -161,4 +161,4 @@ Welcome <?php echo $_POST["fname"]; ?>
 </html> //using post method
 echo date("l"); //date function to output the weekday of today 
 echo date("Y.m.d"); //correct format parameter to output a date
-?>
+echo date("H:i:s"); //utput the time like this: 14:13:25
