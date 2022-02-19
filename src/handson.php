@@ -17,6 +17,12 @@ echo "Hello World"; //Statements in PHP have to end with a special character
 
 $txt= "Hello"; //Create a variable
 
+$x= 5;
+$y= 7;
+echo $x + $y; //echo statement to output the sum of x and y.
+
+
+
 
 
 
