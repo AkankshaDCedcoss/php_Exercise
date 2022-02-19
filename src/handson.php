@@ -166,7 +166,11 @@ echo date("Y.m.d"); //correct format parameter to output a date
 echo date("H:i:s"); //utput the time like this: 14:13:25
 <?php include 'footer.php';?> //correct syntax to include a file named "footer.php".
 <?php echo readfile("webdict.txt"); // correct syntax to open and read the file content
+$myfile = fopen("webdict.txt", "r");
 
+while(!feof($myfile)) {
+echo fgetc($myfile); //Open a file, and write the correct syntax 
+}
 
 
 
