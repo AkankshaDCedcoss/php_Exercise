@@ -13,6 +13,7 @@ multi-line
 comment
 */            //Insert the correct characters to write a multi-line comment.
 
+echo "Hello World"; //Statements in PHP have to end with a special character
 
 
 
